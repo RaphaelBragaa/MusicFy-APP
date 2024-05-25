@@ -1,0 +1,175 @@
+.central{
+    margin: 8px;
+    line-height: 50px;
+}
+.seta {
+    width: 10%;
+    height: 10%;
+}
+
+.img_us{
+    width: 20%;
+    height: 9%;
+    border-radius: 100%;
+    position: absolute;
+    left: 80%;
+    top: 1%;
+    
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+h3 {
+
+    color: aliceblue;
+
+}
+
+input {
+    width: 58rem;
+    height: 4rem;
+}
+
+.But{
+    align-items: center;
+    text-align: center;
+    background-color:#0d99ff ; 
+    width: 24rem;
+    height: 3rem;
+
+    
+}
+
+.Cancelar{
+    width: 24rem;
+    height: 3rem;
+}
+
+@media(min-width: 950px) {
+    .seta {
+        width: 50ren;
+        height: 1ren;
+    }
+
+    .DS {
+        text-align: center;
+        align-items: center;
+    }
+
+    
+}
+
+h2 {
+text-align: center;
+color: aliceblue;
+
+}
+
+h3 {
+
+color: aliceblue;
+
+}
+
+input {
+width: 58rem;
+height: 4rem;
+}
+
+.But{
+align-items: center;
+text-align: center;
+background-color:#0d99ff ; 
+width: 24rem;
+height: 3rem;
+
+
+}
+
+.Cancelar{
+width: 24rem;
+height: 3rem;
+}
+
+@media(min-width: 950px) {
+.seta {
+    width: 50ren;
+    height: 1ren;
+}
+
+.DS {
+    text-align: center;
+    align-items: center;
+}
+
+
+}
+
+.central{
+    margin: 8px;
+    line-height: 50px;
+}
+.seta {
+    width: 10%;
+    height: 10%;
+}
+
+.img_us{
+    width: 20%;
+    height: 9%;
+    border-radius: 100%;
+    position: absolute;
+    left: 80%;
+    top: 1%;
+    
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+h3 {
+
+    color: aliceblue;
+
+}
+
+input {
+    width: 58rem;
+    height: 4rem;
+}
+
+.But{
+    align-items: center;
+    text-align: center;
+    background-color:#0d99ff ; 
+    width: 24rem;
+    height: 3rem;
+
+    
+}
+
+.Cancelar{
+    width: 24rem;
+    height: 3rem;
+}
+
+@media(min-width: 950px) {
+    .seta {
+        width: 50ren;
+        height: 1ren;
+    }
+
+    .DS {
+        text-align: center;
+        align-items: center;
+    }
+
+    
+}
