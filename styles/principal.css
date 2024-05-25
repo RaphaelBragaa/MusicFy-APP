@@ -1,0 +1,80 @@
+#carrocelContainer {
+  border: white solid 8px;
+  border-radius: 8px;
+}
+
+.thumbnail-evento {
+  width: 6.5rem;
+  height: 6.5rem;
+}
+
+.evento-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.evento-container button {
+  background-color: #fff;
+  color: #333333;
+  border-radius: 8px;
+  padding: 10px;
+  font-weight: bold;
+  transition: ease 0.3s;
+}
+.evento-container button:hover {
+  filter: brightness(0.9);
+}
+.eventos {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 8px;
+  background-color: #fff;
+}
+.eventos footer {
+  display: flex;
+}
+
+.eventos button {
+  flex: 1;
+  border: none;
+  border-radius: 0 0 8px 8px;
+  background-color: #1199fd;
+  color: #fff;
+}
+
+.evento-conteudo {
+  display: flex;
+  padding: 8px;
+  gap: 8px;
+}
+
+.eventos-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eventos-info span {
+  font-weight: bold;
+  color: #000;
+}
+.eventos-info span:nth-child(1) {
+  color: #1199fd;
+}
+
+.eventos-info time {
+  font-weight: bold;
+  color: #000;
+}
+.eventos-info time img {
+  width: 1.5rem;
+}
+.eventos-info p {
+  font-weight: bold;
+  color: #000;
+}
+.eventos-info p img {
+  width: 1.5rem;
+}
