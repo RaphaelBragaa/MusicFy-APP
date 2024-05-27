@@ -6,12 +6,12 @@ function Login(event) {
   const password = document.getElementById('senha').value;
 
  const body = {
-     emailUsuario: email,
-     senhaUsuario: password
+     email,
+     password
   };
 
   const promise = axios.post(
-    `http://localhost:3000/usuarios/login`,
+    `https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/auth/login`,
     body
   );
 

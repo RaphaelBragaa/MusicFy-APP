@@ -32,12 +32,15 @@ ul img {
     margin-right: 10px; 
 }
 .cifra{
+    margin: auto;
+    margin-top: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     white-space: pre;
     border-radius: 8px;
     width: 300px;
     background: #ffffff;
     border: solid  #0D99FF 5px;
+    
 }
 h1{
  
