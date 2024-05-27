@@ -5,14 +5,13 @@ function Cadastro(event) {
     const name = document.getElementById('nome').value;
     const image = document.getElementById('foto').value;
     const body = {
-      email,
-      name,
-      image,
-      password,
+        nomeUsuario: name,
+        emailUsuario: email,
+        senhaUsuario: password,
     };
   
     const promise = axios.post(
-      `https://mock-api.bootcamp.respondeai.com.br/api/v2/trackit/auth/sign-up`,
+      `http://localhost:3000/usuarios/cadastrar`,
       body
     );
   
