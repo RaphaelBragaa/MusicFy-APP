@@ -14,18 +14,28 @@
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="../../styles/principal.css" />
+    /> 
     <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/principal.css" />
+    <link rel="stylesheet" href="../../styles/cadastroEvento.css" />
+   
 
     <title>MusicFy App | home</title>
   </head>
   <body>
+    <header>
+        <a href="../login/login.html"><img class="arrow" src="../../images/icones/arrow-sm-left-svgrepo-com.svg"></a>
+        <div class="box-perfil"><img class="perfil" src="../../images/10-ANOS-DE-PAPA-FRANCISCO.png"> </div>
+    </header>
     <main class="p-4">
       <section class="carousel-container">
         <h1>Destaques</h1>
         <div id="carrocelContainer" class="carousel slide">
-          <div class="carousel-inner">
+         
+
+          
+          <div class="carousel-inner"> 
+            <a href="../evento/evento.html">
             <div class="carousel-item active">
               <img
                 src="../../images/imagem-carrosel1.jpg"
@@ -33,6 +43,7 @@
                 alt="..."
               />
             </div>
+            </a>
             <div class="carousel-item">
               <img
                 src="../../images/imagem-carrosel2.jpg"
@@ -166,7 +177,7 @@
           </div>
           <footer><button id="ver-mais">Ver mais</button></footer>
         </div>
-        <button id="criar-evento">Criar Evento</button>
+        <button id="criar-evento"><a class="link" href="../cadastroEvento/cadastroEvento01.html">Criar Evento</a></button>
       </section>
     </main>
     <script

@@ -9,6 +9,14 @@ body {
     box-sizing: border-box;
 }
 
+a:active{
+    text-decoration: none;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
 img{
     padding-bottom: 10px;
     margin: auto;
@@ -77,12 +85,17 @@ button[type="submit"] {
     font-family: "Basic", sans-serif;
 }
 
-.link-cadastro {
+
+.signup {
     display: block;
     margin-top: 10px;
     text-decoration: none;
-    color: #007bff;
+    color: #007bff !important;
     text-align: end;
+}
+
+.link-cadastro:active{
+    color: inherit !important;
 }
 
 .link-cadastro:hover {

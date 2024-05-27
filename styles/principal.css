@@ -1,11 +1,19 @@
 #carrocelContainer {
     border: white solid 8px;
     border-radius: 8px;
+    margin-bottom: 10px;
   }
   
   .thumbnail-evento {
     width: 6.5rem;
     height: 6.5rem;
+  }
+
+  h1{
+    font-family: 'Basic', serif;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
   
   .evento-container {
@@ -21,6 +29,7 @@
     padding: 10px;
     font-weight: bold;
     transition: ease 0.3s;
+    font-family: 'Basic', serif;
   }
   .evento-container button:hover {
     filter: brightness(0.9);
@@ -42,6 +51,7 @@
     border-radius: 0 0 8px 8px;
     background-color: #1199fd;
     color: #fff;
+    font-family: 'Basic', serif;
   }
   
   .evento-conteudo {
@@ -78,4 +88,8 @@
   }
   .eventos-info p img {
     width: 1.5rem;
+  }
+
+ .link{
+    color:black;
   }
