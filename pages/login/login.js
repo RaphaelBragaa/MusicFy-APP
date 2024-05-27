@@ -1,5 +1,6 @@
 
-function Login() {
+function Login(event) {
+  event.preventDefault()
   console.log('Login');
   const email = document.getElementById('email').value;
   const password = document.getElementById('senha').value;
@@ -14,6 +15,8 @@ function Login() {
     body
   );
 
+  console.log(promise);
+
   promise
     .then(res => {
       console.log(res);
@@ -24,7 +27,7 @@ function Login() {
       window.location.href = "../principal/principal.html";
     })
     .catch(err => {
-      console.error(err);
+      console.log(err);
       alert("Error: " + err.message);
       if (err.response && err.response.status === 401) {
         alert("E-mail ou senha inválidos. Por favor, tente novamente.");
