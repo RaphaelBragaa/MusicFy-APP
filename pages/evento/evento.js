@@ -1,8 +1,22 @@
 
 
- function gerarEvento(i){
-    alert('Cargando')
-    window.location.href = "../evento/evento.html"
+function headerScreen(){
+    const storedData = localStorage.getItem('musicfy');
+    const musicfyData = JSON.parse(storedData);
+    console.log(storedData)
+    const perfil = document.querySelector('#perfil');
+    perfil.innerHTML = `
+    <img class="perfil" src="${musicfyData.userImage}">
+    `
+
+}
+
+headerScreen()
+ 
+ 
+ function gerarEvento(){
+    const storedData = localStorage.getItem('eventStorage');
+    const eventos = JSON.parse(storedData);
     const event = document.querySelector('#main-event');
     event.innerHTML = `
     <h1>${eventos[i].title}</h1>

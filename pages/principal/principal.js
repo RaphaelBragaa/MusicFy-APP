@@ -30,13 +30,27 @@ let musics;
   }
 ]
 
+function headerScreen(){
+    const storedData = localStorage.getItem('musicfy');
+    const musicfyData = JSON.parse(storedData);
+    console.log(storedData)
+    const perfil = document.querySelector('#perfil');
+    perfil.innerHTML = `
+    <img class="perfil" src="${musicfyData.userImage}">
+    `
+
+}
+
+headerScreen()
 
 function gerarDestaques(){
 console.log("Chegue")
+
     const carrossel = document.querySelector('#carrosel')
     for( let i=0; i < eventos.length; i++){
         carrossel.innerHTML += `
         <div class="carousel-item ${eventos[i].status}">
+        <a href="../evento/evento.html">
               <img
                 src="${eventos[i].image}"
                 class="d-block w-100"
@@ -47,6 +61,14 @@ console.log("Chegue")
     }
 }
 gerarDestaques()
+
+// function salvarEscolha(select){
+//     localStorage.setItem(
+//         "eventStorage",
+//         JSON.stringify({ select })
+//       );
+//     window.location.href = "../evento/evento.html"
+// }
 
 // function gerarMusicas(){
 //     const quizzesDoUsuario = axios

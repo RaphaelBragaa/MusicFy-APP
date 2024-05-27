@@ -1,6 +1,3 @@
-body {
-    background-color: #0F202F;
-}
 #titulo {
     color: #0D99FF;
 }
@@ -45,4 +42,9 @@ ul img {
 h1{
  
     color: #ffffff;
+}
+
+.icon{
+    width: 5%;
+    height: 5%;
 }
