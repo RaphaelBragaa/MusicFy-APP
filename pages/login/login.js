@@ -6,8 +6,8 @@ function Login(event) {
   const password = document.getElementById('senha').value;
 
   const body = {
-    email,
-    password,
+    emailUsuario: email,
+    senhaUsuario: password
   };
 
   const promise = axios.post(
